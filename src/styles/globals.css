@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#one{
+  color: white;
+  background-color: #0E343D;
+}
+#two{
+  color: white;
+  background-color: #CE3939;
+}
+#three, #four{
+  background-color: #CE3939;
+  color: white;
+}
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+#next {
+  font-family: Arial, Helvetica, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
