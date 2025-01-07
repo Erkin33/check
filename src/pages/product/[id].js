@@ -3,9 +3,9 @@ import { useCart } from "../../context/CartContext";
 
 const products = [
     { id: 'one', name: 'Romantic Florals', price: 10, image: '/Shorts/Black.webp', description: 'Description for Product 1' },
-    { id: 'two', name: 'Romantic Florals', price: 20, image: '/Shorts/Black2.webp', description: 'Description for Product 2' },
-    { id: 'three', name: 'Romantic Florals', price: 40, image: '/Shorts/Black3.webp', description: 'Description for Product 3' },
-    { id: 'four', name: 'Romantic Florals', price: 60, image: '/Shorts/Black3.webp', description: 'Description for Product 4' },
+    { id: 'two', name: 'Romantic Florals', price: 20, image: '/Shorts/black2.webp', description: 'Description for Product 2' },
+    { id: 'three', name: 'Romantic Florals', price: 40, image: '/Shorts/black3.webp', description: 'Description for Product 3' },
+    { id: 'four', name: 'Romantic Florals', price: 60, image: '/Shorts/black3.webp', description: 'Description for Product 4' },
   ];
 
 export default function ProductPage() {
