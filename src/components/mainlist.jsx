@@ -12,16 +12,16 @@ export default function ProductItems() {
         
         {/* Блок с синими элементами */}
         <div className="w-[20%] md:w-[25%] min-[600px]:w-[15%] mr-[5%] ml-[1%] h-full flex bg-[#F5E7D6] flex-col justify-around items-center">
-          <div className="w-full h-[20%] bg-[blue] bg-[url('/Shorts/Black2.webp')] bg-cover"> 
+          <div className="w-full h-[20%] bg-[blue] bg-[url('/Shorts/black2.webp')] bg-cover"> 
           {/* <img src="/Shorts/Black2.webp" alt="" className="w-full h-full"/> */}
           </div>
-          <div className="w-full h-[20%] bg-[blue] bg-[url('/Shorts/Black3.webp')] bg-cover">
+          <div className="w-full h-[20%] bg-[blue] bg-[url('/Shorts/black3.webp')] bg-cover">
           {/* <img src="/Shorts/Black3.webp" alt="" className="w-full h-full"/> */}
           </div>
           <div className="w-full h-[20%] bg-[blue] bg-[url('/Shorts/Black.webp')] bg-cover">
           {/* <img src="/Shorts/Black.webp" alt="" className="w-full h-full"/> */}
           </div>
-          <div className="w-full h-[20%] bg-[blue] bg-[url('/Shorts/Black2.webp')] bg-cover">
+          <div className="w-full h-[20%] bg-[blue] bg-[url('/Shorts/blue2.webp')] bg-cover">
           {/* <img src="/Shorts/Black2.webp" alt="" className="w-full h-full"/> */}
           </div>
         </div>
